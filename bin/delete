@@ -1,0 +1,1 @@
+aws kinesis delete-stream --profile development --stream-name TestStream

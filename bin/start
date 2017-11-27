@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require './lib/publisher.rb'
+require './lib/consumer.rb'
+
+p = Publisher.new
+100.times { p.publish }
+c = Consumer.new
+c.consume
+
